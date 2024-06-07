@@ -1,5 +1,36 @@
-# datasets: small-dataset-cerrado and endo.csv exo.csv
+#  This repository contains various datasets and related files for time series analysis, geographical studies, and computational statistics. Below is a description of each file and its intended use.
+File Descriptions
+cerradatav3small.zip
 
-small-dataset-cerrado: Computational Statistics - Its intention is to be used for computer science and engineering courses.
+    Description: This dataset is designed for educational purposes, particularly for courses in Computational Statistics (INPE CAP-417). It is a subset of a larger Cerrado biome dataset.
+    Source: https://www.kaggle.com/datasets/valdivinosantiago/another-small-cerrado-dataset/data .
+    License: GNU GENERAL PUBLIC LICENSE, Version 3 (GPLv3).
+    
+endo.csv
 
-{"@context":{"@language":"en","@vocab":"https://schema.org/","citeAs":"cr:citeAs","column":"cr:column","conformsTo":"dct:conformsTo","cr":"http://mlcommons.org/croissant/","data":{"@id":"cr:data","@type":"@json"},"dataBiases":"cr:dataBiases","dataCollection":"cr:dataCollection","dataType":{"@id":"cr:dataType","@type":"@vocab"},"dct":"http://purl.org/dc/terms/","extract":"cr:extract","field":"cr:field","fileProperty":"cr:fileProperty","fileObject":"cr:fileObject","fileSet":"cr:fileSet","format":"cr:format","includes":"cr:includes","isEnumeration":"cr:isEnumeration","isLiveDataset":"cr:isLiveDataset","jsonPath":"cr:jsonPath","key":"cr:key","md5":"cr:md5","parentField":"cr:parentField","path":"cr:path","personalSensitiveInformation":"cr:personalSensitiveInformation","recordSet":"cr:recordSet","references":"cr:references","regex":"cr:regex","repeated":"cr:repeated","replace":"cr:replace","sc":"https://schema.org/","separator":"cr:separator","source":"cr:source","subField":"cr:subField","transform":"cr:transform","wd":"https://www.wikidata.org/wiki/"},"alternateName":"","conformsTo":"http://mlcommons.org/croissant/1.0","license":{"@type":"sc:CreativeWork","name":"Unknown"},"distribution":[{"contentUrl":"https://www.kaggle.com/api/v1/datasets/download/valdivinosantiago/another-small-cerrado-dataset?datasetVersionNumber=1","contentSize":"271.521 MB","md5":"939qpcu0H9p0hHlfB61d/w==","encodingFormat":"application/zip","@id":"archive.zip","@type":"cr:FileObject","name":"archive.zip","description":"Archive containing all the contents of the Another Small Cerrado Dataset dataset"},{"includes":"*.tif","containedIn":{"@id":"archive.zip"},"encodingFormat":"image/tiff","@id":"image-tiff_fileset","@type":"cr:FileSet","name":"image/tiff files","description":"image/tiff files contained in archive.zip"}],"version":1,"keywords":["subject \u003E earth and nature"],"isAccessibleForFree":true,"includedInDataCatalog":{"@type":"sc:DataCatalog","name":"Kaggle","url":"https://www.kaggle.com"},"creator":{"@type":"sc:Person","name":"vsantjr","url":"/valdivinosantiago","image":"https://storage.googleapis.com/kaggle-avatars/thumbnails/7183435-kg.JPG"},"publisher":{"@type":"sc:Organization","name":"Kaggle","url":"https://www.kaggle.com/organizations/kaggle","image":"https://storage.googleapis.com/kaggle-organizations/4/thumbnail.png"},"thumbnailUrl":"https://storage.googleapis.com/kaggle-datasets-images/new-version-temp-images/default-backgrounds-34.png-7183435/dataset-card.png","dateModified":"2024-04-02T14:20:47.207","datePublished":"2024-04-02T14:26:55.314548","@type":"sc:Dataset","name":"Another Small Cerrado Dataset","url":"https://www.kaggle.com/datasets/valdivinosantiago/another-small-cerrado-dataset/versions/1","description":"This is another small subset of an original Cerrado biome dataset. More information see here: https://github.com/ai4luc. \n\nIts intention is to be used for courses in computer science and engineering."}
+    Description: This file contains an endogenous time series dataset.
+
+exo.csv
+
+    Description: This file contains an exogenous time series dataset.
+
+sw4096.csv
+
+    Description: A time series dataset of solar wind measurements.
+    
+Global_Landslide_Catalog_Export.csv
+
+    Description: This dataset, labeled as GLC, contains a catalog of global landslides. It is intended for use in time series analysis.
+    Source: https://www.kaggle.com/datasets/kazushiadachi/global-landslide-data
+   
+Usage Instructions
+
+    cerradatav3small.zip: Extract the files from the ZIP archive to access the small dataset of the Cerrado biome. This dataset is useful for statistical and probability exercises.
+    endo.csv & exo.csv: These time series datasets can be used to model and analyze endogenous and exogenous variables, respectively.
+    sw4096.csv: Analyze solar wind data for scientific studies on space weather and solar activities.
+    Global_Landslide_Catalog_Export.csv: Suitable for time series analysis related to global landslide events. Use this dataset to study temporal patterns and correlations in landslide occurrences.
+
+Acknowledgments
+
+    To INPE professors and researchers Valdivino Alexandre de Santiago Jr, Leonardo Santos, and Reinaldo Roberto Rosa, for sharing the data sets and a lot of knowledge.
+
